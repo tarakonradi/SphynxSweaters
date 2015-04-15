@@ -1,0 +1,32 @@
+li {
+	list-style-type: none;
+	color: #00C3CA;
+	font-weight: 600;
+	display: inline;
+	padding: 20px;
+	background-color: #BDFBFD; 
+}
+
+#header {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	float: left;
+	width: 100%;
+}
+
+.threecats {
+	width: 900px;
+	display: block;
+	margin:0 auto;
+	
+}
+
+#logo {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	float: left;
+}
+
+/*#container {
+	margin: 0 auto;
+}*/
