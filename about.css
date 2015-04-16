@@ -1,20 +1,55 @@
-li {
-	list-style-type: none;
-	color: #00C3CA;
-	font-weight: 600;
-	display: inline;
-	padding: 20px;
-	background-color: #BDFBFD; 
-	margin-right: 10px;
+body {
+    background-image: url("_artwork/knit_swatch_blue.jpg");
+    background-repeat: repeat;	
+	}
+
+h2 {
+	font-family: 'Amatic SC', sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+	color: #247d80;
+	line-height: 60%;
+	margin-bottom: -5px;
 }
 
-a {
-	text-decoration: none;
+p {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 16;
+
+}
+
+#header ul {
+	margin-top: 103px;
+	margin-left: 40px;
+}
+
+#header li {
+	list-style-type: none;
 	color: #00C3CA;
+	display: inline;
+	padding: 30px 26px 15px 26px;
+	background-color: #247d80; 
+	margin-right: 14px;
+}
+
+#header a {
+	text-decoration: none;
+	font-family: 'Amatic SC', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: #bcfafc;
+}
+
+#header a:visited, a:active {
+	color: #bcfafc;
+}
+
+#header li:hover {
+	background-color: #2da0a3;
 }
 
 #header {
-	margin-bottom: 50px;
+/*	margin-bottom: 50px;*/
 	margin-top: 50px;
 	float: left;
 	width: 100%;
@@ -25,13 +60,14 @@ a {
 	margin: 0 auto;
 }
 
-img {
+.threecats img {
 	width: 100%;
+	border: 3px dotted #2da0a3;
 }
 
 #logo {
 	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-top: -20px;
 	float: left;
 }
 
@@ -54,16 +90,36 @@ img {
 }
 
 #footer {
-	clear: both;
+	float:right;
+	background-color: #247d80;
+	width: 100%;
+	height: 45px;
+	text-align: right;
+	line-height: .75;
+	padding-right: 20px;
+}
+
+#footer a {
+	text-decoration: none;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 14px;
+	color: #bcfafc;
+	}
+
+#footer a:visited, a:active {
+    color: #bcfafc;
+}
+
+#footer a:hover {
+    color: #fff;
 }
 
 #footer li {
 	list-style-type: none;
-	color: #00C3CA;
-	font-weight: 600;
-	display: inline-block;
-	padding: 10px;
-	background-color: #BDFBFD; 
+	color: #bcfafc;
+	font-family: 'PT Sans Narrow', sans-serif;
+	display: inline-block; 
 	margin-right: 10px;
-	margin-top: 100px;
+	margin-bottom: 10px;
+	text-align: right;
 }
