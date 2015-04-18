@@ -10,12 +10,13 @@ h2 {
 	color: #247d80;
 	line-height: 60%;
 	margin-bottom: -5px;
+	display: inline-block;
 }
 
 p {
 	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 16;
-
+	font-size: 18pt;
+	color: #247d80;
 }
 
 #header ul {
@@ -76,19 +77,20 @@ p {
 	width: 900px;
 }
 
-.left {
+.tara {
 	float: left;
 	margin-right: 50px;
-	width: 46%;
+	width: 50%;
 	margin-bottom: 50px;
-
 }
 
-.right {
-	float: right;
-	width: 46%;
+.aboutuspics img {
+	width: 200px;
+	height: 30%;
+	padding: 3%;
+	margin-top: 10px;
+	display: inline;
 }
-
 #footer {
 	float:right;
 	background-color: #247d80;
