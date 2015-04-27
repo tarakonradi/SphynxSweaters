@@ -11,9 +11,10 @@
 	
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700|Lobster+Two:400,700|PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
 
+	<!-- Slideshow -->
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<!-- optional touchswipe file to enable swipping to navigate slideshow -->
-<script type="text/javascript" src="scripts/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.touchSwipe.min.js"></script>
 
 <style>
 
@@ -25,53 +26,32 @@ height: auto;
 </style>
 
 <script type="text/javascript" src="scripts/fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
 </script>
 
-<script type="text/javascript">
+<script>
 
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [900, 500], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["catpics/slider1.jpg"],
-		["catpics/slider2.jpg"],
-		["catpics/slider3.jpg"],
-		["catpics/slider4.jpg"],
-		["catpics/slider5.jpg"]
-		//<--no trailing comma after very last image element!
-	],
-	displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 500, //transition duration (milliseconds)
-	descreveal: "always",
-	togglerid: ""
-})
-
-         // <img src="catpics/3catsinsweater.jpg" alt="" />
-		       //      </div>
-		       //      <div class="slide2">
-		       //          <img src="catpics/sphynxpinksweater.jpg" alt="" />
-		       //      </div>
-		       //      <div class="slide3">
-		       //          <img src="catpics/coldcat.jpeg" alt="" />
-
-
+	var mygallery=new fadeSlideShow({
+		wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+		dimensions: [900, 500], //width/height of gallery in pixels. Should reflect dimensions of largest image
+		imagearray: [
+			["catpics/slider1.jpg"],
+			["catpics/slider2.jpg"],
+			["catpics/slider3.jpg"],
+			["catpics/slider4.jpg"],
+			["catpics/slider5.jpg"]
+		],
+		displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
+		persist: false, 
+		fadeduration: 500, 
+		descreveal: "always",
+		togglerid: ""
+	})
 </script>
-
 </head>
+
 <body>
-
 	<div id ="container">
-
 		<div id="header">
-	
 			<div id ="logo"> <img src="_artwork/logo.png"></div>
 				<nav>
 					<ul> 
