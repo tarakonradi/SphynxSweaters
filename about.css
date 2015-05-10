@@ -125,3 +125,106 @@ p {
 	margin-bottom: 10px;
 	text-align: right;
 }
+
+.burger {
+	display: none;
+}
+
+@media all and (max-width: 450px) {
+	
+	#header li {
+			list-style-type: none;
+			display: inline;
+			padding: 7px 26px 15px 26px;
+			margin-right: 14px;
+			float: right;
+			width: 100%;
+			text-align: center;
+			background-color: white;
+	}
+
+	#header a {
+		text-decoration: none;
+		font-family: 'Amatic SC', sans-serif;
+		font-weight: 700;
+		font-size: 36px;
+		color: #bcfafc;
+	}
+
+	#header li:hover {
+		background-color: #2da0a3;
+	}
+
+	#header ul {
+		width: 100%;
+	}
+
+	#header {
+/*	margin-bottom: 50px;*/
+		margin: 0;
+		float: left;
+		width: 100%;
+		height: 80px;
+		/*opacity: .5;*/
+		z-index: 1;
+		margin-bottom: 100px;
+}
+
+	.burger {
+		width: 70px;
+		margin-top: 5px;
+		margin-left: 350px;
+		position: fixed;
+		display: block;
+		opacity: .6;
+	}
+
+	/*header ul {
+			width: 100%;
+		}*/
+
+	#logo {
+		width: 50px;
+		height: 50px;
+		/*margin-bottom: 50px;
+		margin-top: -20px;
+		float: left;*/
+	}
+
+	.menu {
+		display:none;
+	}
+
+	.aboutuspics img {
+		width: 80%;
+}
+	
+
+.Tara {
+	clear: both;
+	width: 85%;
+	margin: 0;
+}
+
+p {
+	width: 300px;
+	margin: 0;
+	text-align: center;
+}
+
+.Jen {
+	clear: both;
+	margin: 0;
+	width: 85%;
+}
+
+#container {
+	width: 450px;
+}
+/*
+#footer {
+	display: inherit;
+}*/
+
+
+
