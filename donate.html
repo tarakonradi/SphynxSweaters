@@ -8,6 +8,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700|Lobster+Two:400,700|PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
 	<!-- Media query -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 	JQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 <body>
 	<img src="_artwork/menu_burger.png" class="burger">
@@ -70,7 +72,13 @@
 			</nav>
 		</div>
 </div>
+<script>
 
+		$('.burger').click(function(){
+			$('.menu').fadeToggle()
+    	});
+
+</script>
 <body>
 
 </body>

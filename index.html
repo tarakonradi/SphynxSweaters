@@ -94,8 +94,17 @@
 </div>
 
 <script>
+		$(document).ready(function() {
+		$('.burger').click(function(){
+			$('.menu').fadeToggle()
+    	});
+	});
 
-		var mygallery=new fadeSlideShow({
+</script>
+
+<script>
+
+		var mygallery= new fadeSlideShow({
 			wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
 			dimensions: [900, 500], //width/height of gallery in pixels. Should reflect dimensions of largest image
 			imagearray: [
@@ -111,15 +120,7 @@
 			descreveal: "always",
 			togglerid: ""
 		})
-
-// $(document).ready(function(){
-// 		$('.burger').click(function(){
-// 			$('.menu').fadeToggle()
-//     	});
-
-
-
-		
 	</script>
+
 </body>
 </html>
